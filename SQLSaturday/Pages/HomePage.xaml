@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:PageBase 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:base="clr-namespace:SQLSaturday;assembly=SQLSaturday"
+	xmlns:core="clr-namespace:SQLSaturday.Core;assembly=SQLSaturday.Core"
+	x:Class="SQLSaturday.HomePage"
+	x:TypeArguments="core:HomeViewModel"
+	Title="{Binding Title}">
+	<ContentPage.Content>
+		<Label Text="{Binding Environment}" VerticalOptions="Center" HorizontalOptions="Center"/>
+	</ContentPage.Content>
+</base:PageBase >
